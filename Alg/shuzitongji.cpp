@@ -55,9 +55,6 @@ int main(){
 			result[j-1][1]=temp;
 		}
 	}
-    for(i = 0;i < n;i++){
-        cout << A[i] << "\t";
-    }
     for(i = 0;i <= count;i++){
         cout << result[i][0] << "\t" << result[i][1] << endl;
     }
