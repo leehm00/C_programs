@@ -45,6 +45,6 @@ int main(){
     shellSorttotal(students,n);
     for (int i = n-1; i >=0; i--)
     {
-        cout << students[i].id << " ";
+        cout << students[i].id << " " << students[i].total << endl;
     }
 }
