@@ -1,6 +1,6 @@
-
 #include <iostream>
 using namespace std;
+
 int median3(int nums[], int left, int right){
 	int center = (left + right) / 2;
 	if(nums[left] > nums[center])
